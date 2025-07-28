@@ -1,0 +1,7 @@
+{
+  "name":"CRM Holoware",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

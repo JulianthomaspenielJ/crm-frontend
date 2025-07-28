@@ -1,0 +1,64 @@
+.main_login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image:url("../Image/backround.jpg");
+    background-size: cover;
+}
+.google-login {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(11,10,125,1) 0%, rgba(0,212,255,1) 0%, rgba(0,181,255,1) 0%, rgba(44,60,224,1) 100%, rgba(2,0,36,1) 100%);
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 20px 0px 20PX 0px ;
+    width: 250px;
+    
+  }
+  .card_container{
+    background: rgba(255, 255, 255, 0.3); 
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.18); 
+  }
+  .signup_login_container {
+    display: flex;
+    align-items: center;
+   /* background-color: #e02b6a; */
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,60,224,1) 0%, rgba(0,181,255,1) 100%, rgba(0,212,255,1) 100%, rgba(11,10,125,1) 100%, rgba(9,9,121,1) 100%);
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 20px 0px 20PX 0px ;
+    width: 250px;
+    
+  }
+  
+  .google-icon {
+    width: 30px;
+    height: 30px;
+    
+  }
+  
+  .login-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .signUp-link {
+    color: #007ee1;
+    cursor: pointer;
+  }
+  

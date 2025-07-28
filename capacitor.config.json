@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.crm",
+    "appName": "CRM Holoware",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+  }

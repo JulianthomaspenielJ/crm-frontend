@@ -1,0 +1,136 @@
+body {
+  font-size: 10px;
+  color: black;
+}
+
+.quotation-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.quotation-content {
+  width: 100%;
+  max-width: 210mm; /* Ensures it fits within A4 width */
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  background-color: #097aa8;
+}
+
+.header-info {
+  text-align: end;
+  padding: 10px 10px 10px 50%;
+  line-height: 25px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.quotation-title {
+  color: #097aa8;
+  margin: 10px 0px 10px 0px;
+  font-size: 14px;
+}
+
+.estimate-section {
+  width: 100%;
+  background-color: #097aa8;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 12px;
+}
+
+.estimate-section div {
+  color: #fff;
+  padding: 5px;
+}
+
+.estimate-info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 12px;
+}
+
+.estimate-info div {
+  padding: 5px;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #686868de;
+  padding: 4px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.tax-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.tax-table th,
+.tax-table td {
+  padding: 4px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.total-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.total-table th,
+.total-table td {
+  padding: 4px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.amounts {
+  width: 100%;
+  /* display: grid; */
+  /* grid-template-columns: 54% 45%;
+  gap: 10px; */
+}
+
+.amounts p {
+  text-align: left;
+  padding: 5px 0px 0px 10px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.section-title {
+  background-color: #097aa8;
+  color: #fff;
+  text-align: left;
+  padding: 5px 0px 0px 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.download-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #097aa8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
